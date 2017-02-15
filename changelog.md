@@ -8,3 +8,7 @@
 - Created changelog, initial commit
 - Created database 'todo' and created configurations
 
+### *v0.2* (Feb 14, 2017)
+- Edited changelog (Karan)
+- Added homepage features (Karan)
+
