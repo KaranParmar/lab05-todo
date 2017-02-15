@@ -21,14 +21,14 @@ class Welcome extends Application
     {
         $this->data['pagebody'] = 'homepage';
         $tasks = $this->tasks->all();   // get all the tasks
-// count how many are not done
+        // count how many are not done
         $count = 0;
         foreach ($tasks as $task)
         {
             if ($task->status != 2)
                 $count++;
         }
-// and save that as a view parameter
+        // and save that as a view parameter
         $this->data['remaining_tasks'] = $count;
 
         // process the array in reverse, until we have five
