@@ -12,3 +12,5 @@
 - Edited changelog (Karan)
 - Added homepage features (Karan)
 
+### *v0.3* (Feb 14, 2017)
+- Added View and by_catetory, by_priority pages (jake)
