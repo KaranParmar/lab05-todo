@@ -132,5 +132,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array('flags', 'groups', 'priorities', 'sizes', 'statuses', 'tasks');
 $autoload['libraries'] = array('parser','database');
