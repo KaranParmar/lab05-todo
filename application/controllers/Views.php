@@ -24,6 +24,8 @@ class Views extends Application
         $this->data['leftside'] = 'by_priority';
         $this->data['rightside'] = 'by_category';
 
-        $this->render('template_secondary'); 
+        $this->data['pagebody'] = 'template_secondary';
+        $this->render();
     }
+
 }
